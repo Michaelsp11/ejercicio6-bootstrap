@@ -23,34 +23,8 @@
 
 .sidebar {
     background-color: var(--color-fondo-secundario);
-    flex: 1;
-}
-
-.principal,
-.sidebar {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.bloque {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.sidebar .listado+.listado {
-    margin-top: 15px;
 }
 
 .contenedor-principal {
     min-height: calc(100vh - var(--altura-cabecera-pie) * 2);
-}
-
-.principal {
-    flex: 2;
-}
-
-@media (min-width: 500px) {
-    .contenedor-principal {
-        display: flex;
-    }
 }
