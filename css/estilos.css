@@ -6,8 +6,7 @@
     --altura-cabecera-pie: 100px;
 }
 
-body {
-    margin: 0;
+.cuerpo {
     color: var(--color-texto);
     font-family: Poppins, sans-serif;
 }
@@ -15,14 +14,7 @@ body {
 .cabecera,
 .pie {
     background-color: var(--color-principal);
-    color: #fff;
     height: var(--altura-cabecera-pie);
-    display: flex;
-    align-items: center;
-}
-
-.pie {
-    justify-content: center;
 }
 
 .principal {
